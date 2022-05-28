@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Work+Sans:wght@700;800&display=swap');
+body{
+    background-color: #0b1321;
+}
+.header{
+    display: flex;
+    padding: 32px;
+    justify-content: space-around   ;
+
+}
+
+hr{
+   border-color: #1b3b70;
+}
+
+.logo{
+    border-radius: 2px;
+    margin-right: 620px;
+}
+.navigate>div>ul{
+   display: flex;
+   flex-flow: row wrap;
+    list-style: none;
+    max-width: none;
+    position:center;
+    margin-top: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right:20px;
+    
+}
+
+a{
+    color: rgba(235, 229, 229, 0.863);
+    font-family:var(--overlay-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.banner{
+    text-align: center;
+    object-fit: contain;
+}
+
+.block-space{
+    height: 100px;
+}
+.container{
+    padding: 5px;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    padding:10px;
+    margin:40px;
+}
+.column{
+    font-family:'Galano Grotesque DEMO';
+    color: #ACC8E5;
+}
+h4{
+    font-size: 50px;
+    margin:auto;
+}
+P{
+    font-size:25px;
+}
